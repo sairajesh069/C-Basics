@@ -39,22 +39,22 @@ void main()
 			switch(rc)
 			{
 				case 1:
-					printf("%d > %d = %d",a,b,a>b);
+					printf("%d > %d = %s",a,b,a>b?"True":"False");
 					break;
 				case 2:
-					printf("%d >= %d = %d",a,b,a>=b);
+					printf("%d >= %d = %s",a,b,a>=b?"True":"False");
 					break;
 				case 3:
-					printf("%d < %d = %d",a,b,a<b);
+					printf("%d < %d = %s",a,b,a<b?"True":"False");
 					break;
 				case 4:
-					printf("%d <= %d = %d",a,b,a<=b);
+					printf("%d <= %d = %s",a,b,a<=b?"True":"False");
 					break;
 				case 5:
-					printf("%d == %d = %d",a,b,a==b);
+					printf("%d == %d = %s",a,b,a==b?"True":"False");
 					break;
 				case 6:
-					printf("%d != %d = %d",a,b,a!=b);
+					printf("%d != %d = %s",a,b,a!=b?"True":"False");
 					break;
 				default:
 					printf("Enter valid input");
